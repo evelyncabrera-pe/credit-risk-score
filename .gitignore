@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Modelos y artefactos grandes
+models/*.pkl
+
+# Outputs generados (se regeneran ejecutando los notebooks)
+outputs/scores/*.csv
+outputs/plots/*.png
+data/clean/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
